@@ -1,0 +1,11 @@
+package com.runner;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@Cucumber.Options(features="Fish",glue= {"com.my.program"})
+public class LoginTest {
+
+}
